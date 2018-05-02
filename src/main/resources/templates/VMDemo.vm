@@ -1,0 +1,37 @@
+<html>
+    <head>
+    <style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+th{
+    background-color: #dddddd;
+}
+</style>
+    </head>
+    <body>
+     
+        <table>  
+         <tr>  
+          <th colspan="2">
+               Table 
+          </th>
+         </tr>
+          <tr>
+             <td> First Name </td>  <td>Last Name </td>
+          </tr>
+          <tr>
+               <td>$name</td>  <td>$lastName</td>
+          </tr>
+        </table>
+    </body>
+</html>
